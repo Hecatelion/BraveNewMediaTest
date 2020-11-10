@@ -1,0 +1,17 @@
+//--------------------------------------------
+SET-UP / DEVICE ISSUES
+
+- a lot of set up (updating Unity, installing AR packages, setting up properly the unity project)
+- a lot of time lost because my phone was on Android 7.0, whereas Android 8.0 was needed, so I used a relative's phone on which I wasnt allowed to install Unity Remote and set the Developper Mode
+- my last Android experience was on late 2018
+- never used AR
+
+//--------------------------------------------------
+PROG ISSUES MET 
+
+- moving, rotating Tracked Prefab from its Reference Image
+	-> solution : creating an empty parent prefab which became the Tracked Prefab and in which the Desk has been moved and rotated as I wished.
+
+- Android UI bug found : UI not refreshing. It seems to be a knowned bug which appeared 1 or 2 years ago (so I didnt meet this bug on my last experiences)
+
+-
