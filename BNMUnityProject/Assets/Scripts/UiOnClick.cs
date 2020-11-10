@@ -7,9 +7,8 @@ public class UiOnClick : MonoBehaviour
 	[SerializeField] Material selectedMat;
 	[SerializeField] Material notSelectedMat;
 
-	public GameObject ui;
-
-	public bool isSelected = false;
+	GameObject ui;
+	bool isSelected = false;
 
     void Start()
     {

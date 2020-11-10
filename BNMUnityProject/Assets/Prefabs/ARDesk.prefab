@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 707580154032291786}
   - component: {fileID: 1622562180345244604}
   - component: {fileID: -6416614108914411027}
+  - component: {fileID: 8428570246443038658}
   m_Layer: 0
   m_Name: SpawnObj
   m_TagString: Untagged
@@ -26,14 +27,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5133405924093420770}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1196803575}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &707580154032291786
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -95,10 +96,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ddff2f496717c4ebe86dee8a6b0dca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedMat: {fileID: 2100000, guid: ddd956ff01a9b1841b5718c302fed164, type: 2}
+  selectedMat: {fileID: 2100000, guid: f97d5799946d58b48aff96c7b3cb4310, type: 2}
   notSelectedMat: {fileID: 2100000, guid: 36015ad85128ca545b3da6ce2fdb5167, type: 2}
   ui: {fileID: 0}
   isSelected: 0
+--- !u!65 &8428570246443038658
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5133405924093420770}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7621368, y: 0.717003, z: 1.0298373}
+  m_Center: {x: 0.08498548, y: 0.000000074505806, z: 0.520418}
 --- !u!1001 &5266523879505885383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106,6 +120,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 217529691717544747}
     m_Modifications:
+    - target: {fileID: 5266523880449657010, guid: f9eb1a965ab55934f87e860257eefbbf,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266523880449657010, guid: f9eb1a965ab55934f87e860257eefbbf,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5266523880449657010, guid: f9eb1a965ab55934f87e860257eefbbf,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5266523880467119408, guid: f9eb1a965ab55934f87e860257eefbbf,
         type: 3}
       propertyPath: m_Pivot.x
