@@ -8,6 +8,7 @@ However it probably took me around 3 or 4 hours of real programming / debugging.
 To know the detail of my technical constraints and the issues I encountered, please read the post_mortem_eng.txt doc.
 
 // how to get my work -----------------------
+
 I worked on 1 unique project in which you will be able to run the 2 exercises, the 3rd one is readable in the doc named exercice3_fr.
 
 • To get the Android project version, please checkout the commit called "Android Project Finished" (3rd commit from the end).
