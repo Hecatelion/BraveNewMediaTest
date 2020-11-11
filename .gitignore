@@ -16,3 +16,5 @@ BNMUnityProject/Assembly-CSharp.csproj
 BNMUnityProject/Builds/v1.apk
 
 *.sln
+
+BNMUnityProject/Builds/
