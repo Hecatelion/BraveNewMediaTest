@@ -1,0 +1,19 @@
+3) Application légère sans concession de qualité et quantité de contenu.
+
+Afin de garder un build le plus léger possible, nous pourrions : 
+
+• Placer ledit contenu sur un serveur, afin de stocker en dehors de l’application un maximum de fichiers binaires : models 3D, textures, etc. 
+Faire éventuellement de même pour les fichiers textes. En effet ils pèsent drastiquement moins lourd que les fichiers binaires mais pour une application 
+de musée par exemple, où les textes explicatifs pourraient être longs et nombreux, ce pourrait également être de rigueur.
+
+• Publier l’application telle quelle, sans “contenu” mais avec la logique de fonctionnement.
+
+• Charger lorsque nécessaire les ressources stockées sur le serveur. (à l’entrée du musée, une mise à jour, en scannant un QR code par exemple)
+
+• Ce système de mise à jour de contenu pourrait se faire par l’utilisation d’Asset Bundles proposé par Unity par exemple.
+
+• Les ressources précédemment chargées pourraient ensuite être détruites afin de libérer de l’espace de stockage sur les appreils des utilisateurs et ainsi éviter de s'attirer une mauvaise presse.
+
+• Nous pourrions aussi proposer à l’utilisateur de cocher une case “je reviens bientot dans le musée”.
+	• Si case cochée (je reviens bientot) → conservation des ressources chargées. 
+	• Sinon (je ne reviens pas bientot) → suppression des ressources.

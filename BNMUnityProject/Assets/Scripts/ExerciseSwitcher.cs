@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class ExerciseSwitcher : MonoBehaviour
 {
-	// [SerializeField] Object sceneToLoad;
 	[SerializeField] string sceneToLoadName;
 	[SerializeField] Button button;
 	[SerializeField] Text curExText;
@@ -15,11 +14,6 @@ public class ExerciseSwitcher : MonoBehaviour
 
     void Start()
     {
-		/*
-		button.GetComponentInChildren<Text>().text = "go to : " + sceneToLoad.name;
-		curExText.text = SceneManager.GetActiveScene().name;
-		*/
-
 		StartCoroutine(SetUITexts());
     }
 
@@ -31,6 +25,7 @@ public class ExerciseSwitcher : MonoBehaviour
 		SceneManager.LoadScene(sceneToLoadName);
 	}
 
+	// work around of a unity known bug making UI not refresh when set on MonoBehaviour.Start()
 	private IEnumerator SetUITexts() 
 	{
 		yield return new WaitForSeconds(0.01f);

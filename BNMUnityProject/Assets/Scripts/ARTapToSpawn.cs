@@ -23,9 +23,6 @@ public class ARTapToSpawn : MonoBehaviour
 
 	List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
-	//debug
-	[SerializeField] Text titleText;
-
     void Start()
     {
 		arRaycastManager = GetComponent<ARRaycastManager>();
@@ -99,7 +96,6 @@ public class ARTapToSpawn : MonoBehaviour
 				{
 					pinchDistAtStart = pinchDist;
 					scaleAtStart = spawnObject.transform.localScale;
-					titleText.text = pinchDistAtStart.ToString();
 				}
 			}
 
