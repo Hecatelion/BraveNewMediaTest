@@ -1,4 +1,4 @@
-BraveNewMediaTest
+Brave New Media AR Test by Baptiste Billard
 
 // duration ----------------------------------
 
