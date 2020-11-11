@@ -22,6 +22,7 @@ On top, the current exercise name is written.
 By clicking on the bottom button, you will switch to the other exercise.
 
 • Exercise 1 : Please scan the BNM card (vertically) to see the desk appear. Touch it to toggle ON/OFF the UI.
+
 • Exercise 2 : Please scan the ground, it may take some time, especially on tiny areas. 
                Then touch the plane to create a cube. Touch another place on the place to move the cube.
                Pinch (zoom) IN/OUT on screen to scale UP/DOWN the cube.
